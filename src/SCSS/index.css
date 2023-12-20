@@ -1,0 +1,182 @@
+.header {
+  text-align: center;
+}
+.header h1 {
+  font-size: 50px;
+}
+.header h1 span {
+  color: blue;
+}
+
+.containerForm {
+  padding: 0 20px 0 50px;
+}
+.containerForm .titleForm h2 {
+  font-size: 30px;
+  text-align: center;
+}
+.containerForm .titleForm p {
+  text-align: center;
+}
+.containerForm .titleForm p span {
+  color: blue;
+}
+.containerForm .informationContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 500px;
+  margin-top: 50px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px gray;
+}
+.containerForm .informationContainer .inputContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.containerForm .informationContainer .inputContainer .label {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.containerForm .informationContainer .inputContainer .input {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.containerForm .informationContainer .button {
+  padding: 8px;
+  margin-bottom: 8px;
+  width: 100%;
+  background: #194A76;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.containerForm .informationContainer .errorMessage {
+  background-color: #820000;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.containerForm .informationContainer .errorMessage p {
+  padding: 8px;
+  margin: 0;
+}
+
+@media screen and (max-width: 616px) {
+  .containerForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .containerForm .titleForm h2 {
+    font-size: 15px;
+    text-align: center;
+  }
+  .containerForm .titleForm p {
+    text-align: center;
+  }
+  .containerForm .titleForm p span {
+    color: blue;
+  }
+  .containerForm .informationContainer {
+    width: 300px;
+  }
+}
+.containerPatients {
+  padding: 0 20px 0 0;
+  width: 100%;
+}
+.containerPatients .titleLitadoDePacientes {
+  margin-bottom: 50px;
+}
+.containerPatients .titleLitadoDePacientes h2 {
+  font-size: 30px;
+  text-align: center;
+}
+.containerPatients .titleLitadoDePacientes p {
+  text-align: center;
+}
+.containerPatients .titleLitadoDePacientes p span {
+  color: blue;
+}
+.containerPatients .listPatients {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px gray;
+  border-radius: 8px;
+  padding: 5px 0 10px 20px;
+}
+.containerPatients .listPatients .owner p {
+  font-weight: bold;
+}
+.containerPatients .listPatients .owner p span {
+  font-weight: normal;
+}
+.containerPatients .listPatients .buttons-Edit-Delete {
+  display: flex;
+  gap: 20px;
+}
+.containerPatients .listPatients .buttons-Edit-Delete .edit {
+  background-color: #194A76;
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+}
+.containerPatients .listPatients .buttons-Edit-Delete .delete {
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #A20E02;
+  color: white;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+  .containerPatients {
+    padding: 20px;
+  }
+  .containerPatients .titleLitadoDePacientes {
+    margin-bottom: 50px;
+  }
+  .containerPatients .titleLitadoDePacientes h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .containerPatients .titleLitadoDePacientes p {
+    text-align: center;
+    font-size: 15px;
+  }
+  .containerPatients .titleLitadoDePacientes p span {
+    color: blue;
+  }
+}
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #F3F3F3;
+}
+body .containerMain {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 1000px) {
+  .containerMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+}/*# sourceMappingURL=index.css.map */

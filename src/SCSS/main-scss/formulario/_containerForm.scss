@@ -1,0 +1,98 @@
+.containerForm{
+    padding:0 20px 0 50px;
+   
+    .titleForm{
+
+        
+        h2{
+            font-size: 30px;
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            span{
+                color: blue;
+            }
+        }
+    }
+    .informationContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        width: 500px;
+        margin-top:50px ;
+        background: white;
+        border-radius:8px ;
+        box-shadow: 0 0 10px gray;
+        .inputContainer{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+            width: 100%;
+                
+            .label{
+                font-weight:  bold;
+                margin-bottom: 8px;
+            }
+            .input{
+                padding: 8px;
+                border-radius: 5px;
+                border: 1px  solid gray;
+            }
+            
+        }
+        .button{
+            padding: 8px;
+            margin-bottom: 8px;
+            width: 100%;
+            background:#194A76 ;
+            color: white;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .errorMessage{
+            background-color:#820000;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            border-radius: 5px;
+            width: 100%;
+            margin-bottom: 20px;
+            p{
+                padding: 8px;
+                margin: 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:616px) {
+ 
+    .containerForm{
+  
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    
+        .titleForm{
+
+        
+            h2{
+                font-size: 15px;
+                text-align: center;
+            }
+            p{
+                text-align: center;
+                span{
+                    color: blue;
+                }
+            }
+        }
+        .informationContainer{
+            width: 300px;
+        
+        }
+    }
+}

@@ -1,0 +1,78 @@
+
+.containerPatients{
+    padding: 0 20px 0 0;
+    width: 100%;
+    .titleLitadoDePacientes{
+        margin-bottom: 50px;
+   
+        h2{
+            font-size: 30px;
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            span{
+                color: blue;
+            }
+        }
+    }
+    .listPatients{
+       display: flex;
+       flex-direction: column;
+       margin-bottom: 20px;
+       background-color: white;
+       box-shadow: 0 0 10px gray;
+       border-radius: 8px;
+       padding: 5px 0 10px 20px; 
+        
+        
+        .owner{
+            p{
+            font-weight: bold;
+            span{
+                font-weight: normal;
+            }
+           }     
+        }
+
+        .buttons-Edit-Delete{
+            display: flex;
+            gap: 20px;
+            .edit{
+                background-color:#194A76 ;
+                padding: 10px;
+                border-radius: 8px;
+                color: white;
+                font-weight: bold;
+            }
+            .delete{
+                border-radius: 8px;
+                padding: 10px;
+                background-color: #A20E02;
+                color: white;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .containerPatients{
+       
+       padding: 20px;
+       .titleLitadoDePacientes{
+        margin-bottom: 50px;
+        h2{
+            font-size: 20px;
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            font-size: 15px;
+            span{
+                color: blue;
+            }
+        }
+    }
+    }
+}
