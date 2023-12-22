@@ -93,7 +93,7 @@ return (
                       <input className="input" type="Email" id="email" placeholder="email del propietario" value={email} onChange={(e)=>setEmail(e.target.value )}/>
                 </div>
                 <div className="inputContainer">
-                    <label className="label" htmlFor="alta"> ALTA </label>
+                    <label className="label" htmlFor="alta"> FECHA DE ALTA </label>
                       <input className="input" type="date" id="alta" placeholder="dd/mm/aaaa" value={alta} onChange={(e)=>setAlta(e.target.value    )}/>
                 </div>
                 <div className="inputContainer">
